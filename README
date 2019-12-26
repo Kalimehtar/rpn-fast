@@ -1,0 +1,13 @@
+Для сборки выполните
+
+$ raco pkg install x64asm
+$ raco make rpn.rkt
+$ ulimit -s 1000000
+Потом запускать при наличии файла input.txt
+$ racket rpn.rkt
+или
+$ racket rpn.rkt f64
+или
+$ racket rpn.rkt u32
+или
+$ racket rpn.rkt u64
